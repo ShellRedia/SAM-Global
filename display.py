@@ -74,5 +74,5 @@ def view_result_samples(result_dir):
         cv2.imwrite("{}/{}.png".format(save_dir, file_name), result)
     
 if __name__=="__main__":
-    result_dir = "results/2024-01-22-20-22-37/50_vit_b_Globe/0/0025"
+    result_dir = "results/SAM/2024-01-28-16-17-56/50_vit_b_Globe/0/0025"
     view_result_samples(result_dir)
